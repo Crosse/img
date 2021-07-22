@@ -2,9 +2,7 @@ use std::env;
 use std::error::Error;
 use std::str::FromStr;
 
-use uuid::Uuid;
-
-use img::imgapi;
+use imgapi::{self, Uuid};
 
 fn main() {
     if let Err(e) = process() {

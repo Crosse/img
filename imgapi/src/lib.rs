@@ -6,7 +6,8 @@ use std::str::FromStr;
 use serde::{Deserialize, Serialize};
 use serde_json::Value;
 use url::{form_urlencoded, Url};
-use uuid::Uuid;
+
+pub use uuid::Uuid;
 
 pub use chrono::DateTime;
 use chrono::Utc;
